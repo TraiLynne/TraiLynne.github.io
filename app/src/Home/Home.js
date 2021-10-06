@@ -5,13 +5,13 @@ import { FeaturedBlog, FeaturedProject, Header, Introduction } from './component
 
 export default function Home(){
     return(
-        <>
+        <section>
             <Header/>
             <Navigation/>
             <Introduction/>
             <FeaturedProject/>
             <FeaturedBlog/>
             <Footer/>
-        </>
+        </section>
     )
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function FeaturedBlog() {
   return (
-    <section>
+    <article>
       <h1>Featured Blog Here</h1>
-    </section>
+    </article>
   );
 }

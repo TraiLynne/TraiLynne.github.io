@@ -1,5 +1,4 @@
 import React from 'react';
-import HeroImage from '../assets/hero.jpeg'
 
 export default function Header(){
     return (
