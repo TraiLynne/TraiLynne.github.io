@@ -1,9 +1,10 @@
 import React from "react";
+import { DetailsContainer } from "../styles";
 
 export default function Details() {
   return (
-    <header>
+    <DetailsContainer>
       <h1>Details Place Holder</h1>
-    </header>
+    </DetailsContainer>
   );
 }

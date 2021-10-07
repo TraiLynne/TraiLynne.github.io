@@ -1,9 +1,10 @@
 import React from "react";
+import { ResumeContainer } from "../styles";
 
 export default function Resume() {
   return (
-    <header>
+    <ResumeContainer>
       <h1>Resume placeholder</h1>
-    </header>
+    </ResumeContainer>
   );
 }

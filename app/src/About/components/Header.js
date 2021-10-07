@@ -1,9 +1,11 @@
 import React from "react";
+import { HeaderContainer, PageTitle } from "../styles";
+
 
 export default function Header() {
   return (
-    <header>
-      <h1>About</h1>
-    </header>
+    <HeaderContainer>
+      <PageTitle>About</PageTitle>
+    </HeaderContainer>
   );
 }

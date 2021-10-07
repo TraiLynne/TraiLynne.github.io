@@ -1,9 +1,10 @@
 import React from "react";
+import { BioContainer } from "../styles";
 
 export default function Bio() {
   return (
-    <header>
+    <BioContainer>
       <h1>Bio Placeholder</h1>
-    </header>
+    </BioContainer>
   );
 }
