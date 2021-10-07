@@ -1,15 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Link, Nav } from "./styles";
 
 export default function Navigation() {
     return (
-      <nav>
-        <Link to="/">
-          Home
-        </Link>
-        <Link to="/about">
-          About
-        </Link>
-      </nav>
+      <Nav>
+        <NavLink to="/"><Link>Home</Link></NavLink>
+        <NavLink to="/about"><Link>About</Link></NavLink>
+        <NavLink to='/' onClick={() => alert("Coming Soon")}>
+          <Link>Portfolio</Link>
+        </NavLink>
+        <NavLink to='' onClick={() => alert("Coming Soon")}>
+          <Link>Blog</Link>
+        </NavLink>
+      </Nav>
     );
 }

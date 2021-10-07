@@ -1,9 +1,10 @@
 import React from "react";
+import { FooterContainer } from "./styles";
 
 export default function Footer() {
   return (
-    <footer>
+    <FooterContainer>
       <p>(c) Trai Lynne, LLC 2021</p>
-    </footer>
+    </FooterContainer>
   );
 }

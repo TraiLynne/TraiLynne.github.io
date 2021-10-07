@@ -1,9 +1,10 @@
 import React from "react";
+import { ProjectContainer } from "../styles";
 
 export default function FeaturedProject(){
     return(
-        <article>
+        <ProjectContainer>
             <h1>Featured Project Here</h1>
-        </article>
+        </ProjectContainer>
     )
 }
