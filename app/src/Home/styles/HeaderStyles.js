@@ -9,7 +9,6 @@ export const HeaderContainer = styled.header`
 
 export const PageTitle = styled.h1`
     font-size: 50px;
-    color: white;
 `
 
 console.log(document.getElementsByName('section').backgroundImage)
